@@ -8,11 +8,10 @@
   "license": "no",
   "private": false,
   "scripts": {
-    "test": "jest --config jest.config.js",
+    "test": "vitest",
     "build": "tsc",
     "pub": "yarn publish --registry http://verdaccio.mw.local/",
-    "local-add": "yarn add --registry http://verdaccio.mw.local/",
-    "vtest": "vitest"
+    "local-add": "yarn add --registry http://verdaccio.mw.local/"
   },
   "files": [
     "dist"
